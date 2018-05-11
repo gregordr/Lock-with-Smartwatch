@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<item>
+    <shape android:shape="rectangle">
+        <solid android:color="@color/lockColor" />
+        <corners android:bottomRightRadius="90dp"
+            android:bottomLeftRadius="90dp"
+            android:topRightRadius="90dp"
+            android:topLeftRadius="90dp"/>
+    </shape>
+</item>
+
+    <item android:drawable="@drawable/ic_lock_outline_black_24dp"
+        android:width="50dp"
+        android:height="50dp"
+        android:gravity="center"/>
+
+</layer-list>
